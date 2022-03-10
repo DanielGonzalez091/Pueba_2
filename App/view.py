@@ -151,7 +151,7 @@ while True:
         size = input("Indique tamaño de la muestra: ")
         result = controller.sortBooks(control, int(size))
         delta_time = f"{result:.3f}"
-        sorted_list_difference = result[0]
+        sorted_list= result[0]
         print("Para", size, "elementos, delta tiempo:", str(delta_time))
         printSortResults(sorted_list)
 
